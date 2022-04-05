@@ -1,0 +1,6 @@
+Thorlabs-LE1234
+type distance roc diameter material
+O 0        0           0       AIR
+S 0      -82.23       25.4     N-BK7
+S 3.59   -32.14       25.4     AIR
+I 95.9     0          25.4     AIR
