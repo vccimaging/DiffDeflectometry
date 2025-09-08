@@ -70,7 +70,7 @@ class Screen(Endpoint):
                 raise NotImplementedError()
             elif bmode is BoundaryMode.periodic:
                 raise NotImplementedError()
-            img = self.texture[x.flatten(), y.flatten()]
+            img = self.texture[x.flatten().to(torch.int64), y.flatten().to(torch.int64)]
             return img.reshape(x.shape)
 
         if lmode is InterpolationMode.nearest:

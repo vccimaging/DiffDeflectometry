@@ -59,9 +59,9 @@ class Scene(PrettyPrinter):
         ax.set_ylabel(labels[seq[1]] + ' [mm]')
         ax.set_zlabel(labels[seq[2]] + ' [mm]')
         ax.legend(['Display', 'Camera 1', 'Camera 2'])
-        ax.get_legend().legendHandles[0].set_color('k')
+        ax.get_legend().legend_handles[0].set_color('k')
         for i in range(self.camera_count):
-            ax.get_legend().legendHandles[i+1].set_color(colors[i])
+            ax.get_legend().legend_handles[i+1].set_color(colors[i])
         ax.set_title('setup')
         set_axes_equal(ax, np.array([scales[seq[i]] for i in range(3)]))
         plt.show()

@@ -25,7 +25,7 @@ This repository implements a PyTorch differentiable ray tracer for deflectometry
 
 [`demo_experiments.py`](./demo_experiments.py) reproduces one of the paper's experimental results.  Prerequisites:
 
-- Download raw image data `*.npz` from the google drive [here](https://drive.google.com/file/d/15a3T0wL7sWDaEXsAeZM0S7YXRS-fXRNO/view?usp=sharing).
+- Download raw image data `*.npz` from the google drive [here](https://drive.google.com/file/d/1s2EnhoUOpbP4G6GtjMOA-lEsp0Ogt3aL/view?usp=drive_link).
 - Put the downloaded `*.npz` into directory `./20210403/measurement/LE1234-A`.
 
 Then run [`demo_experiments.py`](./demo_experiments.py).  The script should output the following figures:
